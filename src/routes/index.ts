@@ -11,6 +11,7 @@ class Routes {
             res.send("yes")
         })
         app.post('/addUser', user.addUser)
+        app.post('/registerUser', user.registerUser)
     }
 }
 

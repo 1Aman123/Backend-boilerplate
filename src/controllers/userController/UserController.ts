@@ -24,6 +24,13 @@ class UserController {
         }
         return result;
       };
+
+      /**
+       * registerUser
+       */
+      public registerUser = async (req:Request,res:Response) => {
+        res.send("User register successfully")
+      }
     
     /**
      * addUser
